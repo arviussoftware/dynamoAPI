@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "outDir": "./dist",
+      "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    },
+    "include": ["src/**/*.ts", "src/@types", "src/index.js"],
+    "exclude": ["node_modules"],
+    "skipLibCheck": true,
+   "typeRoots": [
+      "./node_modules/@types",
+      "./@types" // Ensure this points to your custom types folder if you created one
+    ]
+  }
